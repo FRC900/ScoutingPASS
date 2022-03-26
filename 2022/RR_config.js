@@ -57,14 +57,14 @@ var config_data = `
         "min":1,
         "max":99999
       },
-      /**
-      *"Auto Start Position": {
-      *  "code":"as",
-      *  "title": "Auto Start Position",
-      *  "type":"field_image",
-      *  "filename":"2022/field_image.png"
-      *}
-      */
+      //
+      //"Auto Start Position": {
+      //  "code":"as",
+      //  "title": "Auto Start Position",
+      //  "type":"field_image",
+      //  "filename":"2022/field_image.png"
+      //}
+      // 
     },
     "auton": {
       "Taxi": {
