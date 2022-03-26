@@ -60,7 +60,7 @@ var config_data = `
        
       "Auto Start Position": {
         "code":"as",
-        /*"title": "Auto Start Position",*/
+          "title": "Auto Start Position",
           "type":"field_image",
           "filename":"2022/0.png"
         /*"filename":"2022/field_image.png"*/
