@@ -59,7 +59,7 @@ var config_data = `
       },
        
       "Auto Start Position": {
-        "code":"as",
+          "code":"as",
           "title": "Auto Start Position",
           "type":"field_image",
           "filename":"2022/0.png"
