@@ -14,7 +14,7 @@ var config_data = `
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"Asheville",
+        "defaultValue":"Pembroke",
         "required":"true",
         "disabled":"true"
       },
