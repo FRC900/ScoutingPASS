@@ -86,7 +86,7 @@ var config_data = `
         "title": "Upper Cargo Scored",
         "type":"counter"
       },
-       "Upper Cargo Attempted": {
+       "Upper Cargo Attempted and Missed": {
         "code":"tua",
         "title": "Upper Cargo Attempted -- Missed",
         "type":"counter"
@@ -96,7 +96,7 @@ var config_data = `
         "title": "Lower Cargo Scored",
         "type":"counter"
       },
-       "Lower Cargo Attempted": {
+       "Lower Cargo Attempted and Missed": {
         "code":"tla",
         "title": "Lower Cargo Attempted -- Missed",
         "type":"counter"
@@ -112,7 +112,7 @@ var config_data = `
         "type":"bool"
       }
     },
-    "defense": {
+    "wallbotInfo": {
       "Defense?": {
         "code":"playedD",
         "title": "Played Defense?",
