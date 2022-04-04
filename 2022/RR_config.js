@@ -66,7 +66,7 @@ var config_data = `
       },
       "Upper Cargo Scored": {
         "code":"au",
-        "title": "Uppoer Cargo Scored",
+        "title": "Upper Cargo Scored",
         "type":"counter"
       },
       "Lower Cargo Scored": {
@@ -83,12 +83,12 @@ var config_data = `
     "teleop": {
       "Upper Cargo Scored": {
         "code":"tu",
-        "title": "Uppoer Cargo Scored",
+        "title": "Upper Cargo Scored",
         "type":"counter"
       },
        "Upper Cargo Attempted": {
         "code":"tua",
-        "title": "Uppoer Cargo Attempted (But Missed)",
+        "title": "Upper Cargo Attempted -- Missed",
         "type":"counter"
       },
       "Lower Cargo Scored": {
@@ -98,7 +98,7 @@ var config_data = `
       },
        "Lower Cargo Attempted": {
         "code":"tla",
-        "title": "Lower Cargo Attempted (But Missed)",
+        "title": "Lower Cargo Attempted -- Missed",
         "type":"counter"
       },
       "Was Defended": {
