@@ -56,15 +56,7 @@ var config_data = `
         "type":"team",
         "min":1,
         "max":99999
-      },
-       
-      "Auto Start Position": {
-          "code":"as",
-          "title": "Auto Start Position",
-          "type":"field_image",
-          "filename":"2022/0.png"
-      }
-       
+      } 
     },
     "auton": {
       "Taxi": {
@@ -94,9 +86,19 @@ var config_data = `
         "title": "Uppoer Cargo Scored",
         "type":"counter"
       },
+       "Upper Cargo Attempted": {
+        "code":"tua",
+        "title": "Uppoer Cargo Attempted (But Missed)",
+        "type":"counter"
+      },
       "Lower Cargo Scored": {
         "code":"tl",
         "title": "Lower Cargo Scored",
+        "type":"counter"
+      },
+       "Lower Cargo Attempted": {
+        "code":"tla",
+        "title": "Lower Cargo Attempted (But Missed)",
         "type":"counter"
       },
       "Was Defended": {
@@ -108,25 +110,19 @@ var config_data = `
         "code":"wbt",
         "title": "Wallbot?",
         "type":"bool"
-      },
-      "Cargo Intake From": {
-        "code":"cif",
-        "title": "Cargo Intake From",
-        "type":"radio",
-        "choices":{
-          "t":"Terminal<br>",
-          "g":"Ground<br>",
-          "b":"Both<br>",
-          "x":"Not Attempted"
-        },
-        "defaultValue":"x"
-      },
-      "Shooting Spot": {
-        "code":"ss",
-        "title": "Shooting Spot",
-        "type":"field_image",
-        "filename":"2022/field_image.png"
       }
+    },
+    "defense": {
+      "Defense?": {
+        "code":"playedD",
+        "title": "Played Defense?",
+        "type":"bool"
+      },
+      "Fouls?": {
+        "code":"fouls",
+        "title": "Foul count",
+        "type":"counter"
+      },
     },
     "endgame": {
       "Climb": {
@@ -168,49 +164,10 @@ var config_data = `
         "type":"counter"
       }
     },
-    "postmatch": {
-      "Driver Skill": {
-        "code":"ds",
-        "title": "Driver Skill",
-        "type":"radio",
-        "choices":{
-          "n":"Not Effective<br>",
-          "a":"Average<br>",
-          "v":"Very Effective<br>",
-          "x":"Not Observed"
-        },
-        "defaultValue":"x"
-      },
-      "Defense Rating": {
-        "code":"dr",
-        "title": "Defense Rating",
-        "type":"radio",
-        "choices":{
-          "n":"Not Effective<br>",
-          "a":"Average<br>",
-          "v":"Very Effective<br>",
-          "x":"Not Observed"
-        },
-        "defaultValue":"x"
-      },
-      "Shot enemy balls away?": {
-        "code":"ba",
-        "title": "Shot enemy balls away?",
-        "type":"bool"
-      },
-      "Died/Tipped": {
-        "code":"d",
-        "title": "Died/Tipped",
-        "type":"bool"
-      },
+    "postmatch": {  
       "Card Foul": {
         "code":"cf",
         "title": "Yellow/Red Card",
-        "type":"bool"
-      },
-      "Make good alliance partner?": {
-        "code":"all",
-        "title": "Make good alliance partner?",
         "type":"bool"
       },
       "Comments": {
@@ -219,18 +176,7 @@ var config_data = `
         "type":"text",
         "size":15,
         "maxSize":50
-      },
-      "Confidence Rating": {
-        "code":"cnf",
-        "title": "Confidence Rating",
-        "type":"radio",
-        "choices":{
-          "v":"Very Confident<br>",
-          "a":"Average<br>",
-          "n":"Not Confident"
-      },
-       "defaultValue":"a"
-    }
+      }
     }
   }
 }`;
