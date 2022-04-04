@@ -420,6 +420,15 @@ function configure(){
     const [key, value] = el;
     idx = addElement(tt, idx, key, value);
   });
+	
+// Configure defense screen
+  var tc = mydata.elements.defense;
+  var tt = document.getElementById("defense_table");
+  idx = 0;
+  Object.entries(tc).forEach((el) => {
+    const [key, value] = el;
+    idx = addElement(tt, idx, key, value);
+  });
 
   // Configure endgame screen
   var egc = mydata.elements.endgame;
