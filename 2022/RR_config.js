@@ -122,7 +122,7 @@ var config_data = `
         "code":"fouls",
         "title": "Foul count",
         "type":"counter"
-      },
+      }
     },
     "endgame": {
       "Climb": {
