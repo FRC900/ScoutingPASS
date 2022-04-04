@@ -112,7 +112,7 @@ var config_data = `
         "type":"bool"
       }
     },
-    "wallbotInfo": {
+    "defense": {
       "Defense?": {
         "code":"playedD",
         "title": "Played Defense?",
