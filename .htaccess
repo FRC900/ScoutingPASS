@@ -1,2 +1,18 @@
 AddType text/cache-manifest .manifest
 ExpiresByType text/cache-manifest "access plus 0 seconds"
+# BEGIN Expire headers  
+<IfModule mod_expires.c>  
+  # Turn on the module.
+  ExpiresActive on
+  # Set the default expiry times.
+  ExpiresDefault "access plus 1 month"
+  ExpiresByType resources/js/easy.qrcode.min.js "access plus 1 month"
+  ExpiresByType resources/js/TBAInterface.js "access 1 month"
+  ExpiresByType resources/js/easy.qrcode.min.js "access plus 1 month"
+  ExpiresByType resources/js/default.js "access plus 1 month"
+  ExpiresByType 2022/RR_config.js "access plus 1 month"
+  ExpiresByType 2022/field_image.png "access plus 1 month"
+  ExpiresByType resources/css/scoutingPASS.css "access plus 1 month"
+  ExpiresByType resources/images/field_location_key.png "access plus 1 month"
+</IfModule>  
+# END Expire headers
