@@ -1,4 +1,13 @@
 AddType text/cache-manifest .manifest
-<filesMatch ".(ico|jpg|jpeg|png|gif|css|js)$">
+<filesMatch ".(ico|jpg|jpeg|png|gif|css|js|html)$">
  Header set Cache-Control "max-age=2592000, public"
 </filesMatch>
+
+# Turn off the ETags
+Header unset ETag
+FileETag None
+
+# Turn off the Last Modified header except for html docs
+<FilesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css)$">
+Header unset Last-Modified
+</FilesMatch>
