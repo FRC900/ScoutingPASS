@@ -14,7 +14,7 @@ var config_data = `
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"Pembroke",
+        "defaultValue":"District Champs",
         "required":"true",
         "disabled":"true"
       },
