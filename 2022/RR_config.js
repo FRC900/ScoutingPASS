@@ -78,7 +78,6 @@ var config_data = `
         "code":"ac",
         "title": "Picked up more cargo?",
         "type":"bool"
-      }
     },
     "teleop": {
       "Upper Cargo Scored": {
@@ -117,20 +116,6 @@ var config_data = `
         "code":"playedD",
         "title": "Played Defense?",
         "type":"bool"
-      },
-      "Defense Strategy": {
-        "code":"ds",
-        "type":"radio",
-        "choices":{
-          "hoard":"Ball Hoarder<br>",
-          "push":"Robot Pusher<br>",
-          "exist":"In the Way"
-        }
-      },
-      "Defense Effective?": {
-        "code":"dEffective",
-        "title": "Defensive Strategy",
-        "type":"text"
       },
       "Fouls?": {
         "code":"fouls",
@@ -184,11 +169,6 @@ var config_data = `
         "title": "Yellow/Red Card",
         "type":"bool"
       },
-      "Robot Broken?": {
-        "code":"rb",
-        "title": "Broken Bot",
-        "type":"bool"
-      },
       "Comments": {
         "code":"co",
         "title": "Comments",
@@ -198,4 +178,4 @@ var config_data = `
       }
     }
   }
-};
+}`;
