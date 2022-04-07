@@ -117,6 +117,20 @@ var config_data = `
         "title": "Played Defense?",
         "type":"bool"
       },
+      "Defense Strategy": {
+        "code":"ds",
+        "type":"radio",
+        "choices":{
+          "hoard":"Ball Hoarder<br>",
+          "push":"Robot Pusher<br>",
+          "exist":"In the Way"
+        }
+      },
+      "Defense Strategy": {
+        "code":"dStrat",
+        "title": "Defensive Strategy",
+        "type":"text"
+      },
       "Fouls?": {
         "code":"fouls",
         "title": "Foul count",
@@ -167,6 +181,11 @@ var config_data = `
       "Card Foul": {
         "code":"cf",
         "title": "Yellow/Red Card",
+        "type":"bool"
+      },
+      "Robot Broken?": {
+        "code":"rb",
+        "title": "Broken Bot",
         "type":"bool"
       },
       "Comments": {
