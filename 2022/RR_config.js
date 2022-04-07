@@ -74,11 +74,6 @@ var config_data = `
         "title": "Lower Cargo Scored",
         "type":"counter"
       },
-       "Auto shots attempted": {
-        "code":"ac",
-        "title": "auto shots attempted?",
-        "type":"bool"
-      }
       "Auto Aquired Cargo": {
         "code":"ac",
         "title": "Picked up more cargo?",
