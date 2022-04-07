@@ -126,8 +126,8 @@ var config_data = `
           "exist":"In the Way"
         }
       },
-      "Defense Strategy": {
-        "code":"dStrat",
+      "Defense Effective?": {
+        "code":"dEffective",
         "title": "Defensive Strategy",
         "type":"text"
       },
@@ -197,4 +197,4 @@ var config_data = `
       }
     }
   }
-}`;
+}`};
