@@ -78,6 +78,7 @@ var config_data = `
         "code":"ac",
         "title": "Picked up more cargo?",
         "type":"bool"
+      }
     },
     "teleop": {
       "Upper Cargo Scored": {
