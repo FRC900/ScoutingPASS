@@ -124,13 +124,15 @@ var config_data = `
         "choices":{
           "hoard":"Ball Hoarder<br>",
           "push":"Robot Pusher<br>",
-          "exist":"In the Way"
-        }
+          "exist":"In the Way",
+          "none":"No Defense"
+        },
+        "defaultValue":"none"
       },
       "Defense Effective?": {
         "code":"dEffective",
         "title": "Defensive Strategy",
-        "type":"text"
+        "type":"bool"
       },
       "Fouls?": {
         "code":"fouls",
