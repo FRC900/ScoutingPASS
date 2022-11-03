@@ -14,7 +14,7 @@ var config_data = `
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"District Champs",
+        "defaultValue":"2022varr",
         "required":"true",
         "disabled":"true"
       },
