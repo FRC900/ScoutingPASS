@@ -23,7 +23,7 @@ var options = {
 
 // Must be filled in: e=event, m=match#, l=level(q,qf,sf,f), t=team#, r=robot(r1,r2,b1..), s=scouter
 //var requiredFields = ["e", "m", "l", "t", "r", "s", "as"];
-var requiredFields = ["e", "m", "l", "r", "s"];
+var requiredFields = ["e", "m", "l", "r", "s", "as"];
 
 function addTimer(table, idx, name, data) {
   var row = table.insertRow(idx);
@@ -582,15 +582,6 @@ function configure() {
   tc.forEach(element => {
     idx = addElement(tt, idx, element);
   });
-	
-// Configure defense screen
-  var tc = mydata.elements.defense;
-  var tt = document.getElementById("defense_table");
-  idx = 0;
-  Object.entries(tc).forEach((el) => {
-    const [key, value] = el;
-    idx = addElement(tt, idx, key, value);
-  });
 
   // Configure endgame screen
   var egc = mydata.endgame;
@@ -829,11 +820,7 @@ function clearForm() {
   var match = 0;
   var e = 0;
 
-<<<<<<< HEAD
-	swipePage(-6)
-=======
   swipePage(-5)
->>>>>>> 012a8187596da2191a645fee7c04b3abfa41a765
 
   // Increment match
   match = parseInt(document.getElementById("input_m").value)
