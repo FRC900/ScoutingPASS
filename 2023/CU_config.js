@@ -76,10 +76,10 @@ var config_data = `
       "showUndo": "false",
       "shape": "circle 12 black red true"
     },
-    { "name": "Crossed Cable",
-      "code": "acc",
-      "type": "bool"
-    },
+//     { "name": "Crossed Cable",
+//       "code": "acc",
+//       "type": "bool"
+//     },
     { "name": "Crossed Charging Station",
       "code": "acs",
       "type": "bool"
@@ -96,6 +96,17 @@ var config_data = `
         "e": "Engaged<br>",
         "a": "Attempted but failed<br>",
         "x": "Not attempted"
+      },
+      "defaultValue": "x"
+    },
+    { "name": "Floor Pickup",
+      "code": "afpu",
+      "type": "radio",
+      "choices": {
+        "o": "Cones<br>",
+        "u": "Cubes<br>",
+        "b": "Both<br>",
+        "x": "Not Attempted"
       },
       "defaultValue": "x"
     }
@@ -121,20 +132,20 @@ var config_data = `
       "code": "tfc",
       "type": "counter"
     },
-    { "name": "Was Defended",
-      "code": "wd",
-      "type": "bool"
-    },
-    { "name": "Who Defended this bot",
-      "code": "who",
-      "type": "text"
-    },
-    { "name": "Smart Placement<br>(creates Links)",
-      "code": "lnk",
-      "type": "bool"
-    },
+//     { "name": "Was Defended",
+//       "code": "wd",
+//       "type": "bool"
+//     },
+//     { "name": "Who Defended this bot",
+//       "code": "who",
+//       "type": "text"
+//     },
+//     { "name": "Smart Placement<br>(creates Links)",
+//       "code": "lnk",
+//       "type": "bool"
+//     },
     { "name": "Floor Pickup",
-      "code": "fpu",
+      "code": "tfpu",
       "type": "radio",
       "choices": {
         "o": "Cones<br>",
@@ -168,71 +179,71 @@ var config_data = `
     }
   ],
   "postmatch": [
-    { "name": "Driver Skill",
-      "code": "ds",
-      "type": "radio",
-      "choices": {
-        "n": "Not Effective<br>",
-        "a": "Average<br>",
-        "v": "Very Effective<br>",
-        "x": "Not Observed"
-      },
-      "defaultValue": "x"
-    },
-    { "name": "Links Scored",
+//     { "name": "Driver Skill",
+//       "code": "ds",
+//       "type": "radio",
+//       "choices": {
+//         "n": "Not Effective<br>",
+//         "a": "Average<br>",
+//         "v": "Very Effective<br>",
+//         "x": "Not Observed"
+//       },
+//       "defaultValue": "x"
+//     },
+    { "name": "Links Scored", /*Can we get this from the API?*/
       "code": "ls",
       "type": "counter"
     },
-    { "name": "Defense Rating",
-      "code": "dr",
-      "type": "radio",
-      "choices": {
-        "b": "Below Average<br>",
-        "a": "Average<br>",
-        "g": "Good<br>",
-        "e": "Excellent<br>",
-        "x": "Did not play defense"
-      },
-      "defaultValue": "x"
-    },
-    { "name": "Swerve drive?",
-      "code": "sd",
-      "type": "bool"
-    },
-    { "name": "Speed Rating",
-      "code": "sr",
-      "type": "radio",
-      "choices": {
-        "1": "1 (slow)<br>",
-        "2": "2<br>",
-        "3": "3<br>",
-        "4": "4<br>",
-        "5": "5 (fast)"
-      },
-      "defaultValue":"3"
-    },
-    { "name": "Died/Immobilized",
+//     { "name": "Defense Rating",
+//       "code": "dr",
+//       "type": "radio",
+//       "choices": {
+//         "b": "Below Average<br>",
+//         "a": "Average<br>",
+//         "g": "Good<br>",
+//         "e": "Excellent<br>",
+//         "x": "Did not play defense"
+//       },
+//       "defaultValue": "x"
+//     },
+//     { "name": "Swerve drive?",
+//       "code": "sd",
+//       "type": "bool"
+//     },
+//     { "name": "Speed Rating",
+//       "code": "sr",
+//       "type": "radio",
+//       "choices": {
+//         "1": "1 (slow)<br>",
+//         "2": "2<br>",
+//         "3": "3<br>",
+//         "4": "4<br>",
+//         "5": "5 (fast)"
+//       },
+//       "defaultValue":"3"
+//     },
+    { "name": "Broken?",
       "code": "die",
       "type": "bool"
     },
-    { "name": "Tippy<br>(almost tipped over)",
-      "code": "tip",
-      "type": "bool"
-    },
-    { "name": "Dropped Cones (>2)",
-      "code": "dc",
-      "type": "bool"
-    },
-    { "name": "Make good<br>alliance partner?",
-      "tooltip": "Would you want this robot on your alliance in eliminations?",
-      "code": "all",
-      "type": "bool"
-    },
+//     { "name": "Tippy<br>(almost tipped over)",
+//       "code": "tip",
+//       "type": "bool"
+//     },
+//     { "name": "Dropped Cones (>2)",
+//       "code": "dc",
+//       "type": "bool"
+//     },
+//     { "name": "Make good<br>alliance partner?",
+//       "tooltip": "Would you want this robot on your alliance in eliminations?",
+//       "code": "all",
+//       "type": "bool"
+//     },
     { "name": "Comments",
       "code": "co",
       "type": "text",
       "size": 15,
-      "maxSize": 50
+      "maxSize": 150
     }
   ]
 }`;
