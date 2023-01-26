@@ -99,6 +99,16 @@ var config_data = `
       },
       "defaultValue": "x"
     },
+    { "name": "Preloaded Piece",
+      "code": "ap",
+      "type":"radio",
+      "choices": {
+        "o": "Cone<br>",
+        "u": "Cube<br>",
+        "x": "None<br>"
+      },
+      "defaultValue": "x"
+    },
     { "name": "Floor Pickup",
       "code": "afpu",
       "type": "radio",
@@ -128,10 +138,25 @@ var config_data = `
       "shape": "circle 12 black red true",
       "cycleTimer": "tct"
     },
+    { "name": "Missed Pieces",
+      "code": "tmg",
+      "type": "clickable_image",
+      "filename": "2023/grid_image.png",
+      "dimensions": "9 4",
+      "clickRestriction": "onePerBox",
+      "toggleClick": "true",
+      "showFlip": "false",
+      "showUndo": "false",
+      "shape": "circle 12 black red true",
+      "cycleTimer": "tct"
+    },
     { "name": "Feeder Count<br>(Fed another bot)",
       "code": "tfc",
       "type": "counter"
     },
+    { "name": "Was Fed",
+      "code": "wF",
+      "type": "bool"
 //     { "name": "Was Defended",
 //       "code": "wd",
 //       "type": "bool"
@@ -155,6 +180,14 @@ var config_data = `
       },
       "defaultValue": "x"
     }
+    { "name": "Single Substation Pickup",
+      "code": "ssp",
+      "type": "bool"
+    },
+    { "name": "Double Substation Pickup",
+      "code": "dsp",
+      "type": "bool"
+    }
   ],
   "endgame": [
     { "name": "Docking Timer",
@@ -170,6 +203,17 @@ var config_data = `
         "e": "Engaged<br>",
         "a": "Attempted but failed<br>",
         "x": "Not attempted"
+      },
+      "defaultValue": "x"
+    },
+    { "name": "Docking Order",
+      "code": "fs",
+      "type":"radio",
+      "choices": {
+        "f": "First",
+        "s": "Seconds",
+        "t": "Third",
+        "x": "Did not dock"
       },
       "defaultValue": "x"
     },
@@ -194,6 +238,19 @@ var config_data = `
       "code": "ls",
       "type": "counter"
     },
+    { "name": "Fouls",
+      "code": "foul",
+      "type": "counter"
+    },
+    { "name": "Yellow Cards",
+      "code": "yc",
+      "type": "counter"
+    },    
+    { "name": "No Show?",
+      "code": "ns",
+      "type": "bool"
+    },
+
 //     { "name": "Defense Rating",
 //       "code": "dr",
 //       "type": "radio",
