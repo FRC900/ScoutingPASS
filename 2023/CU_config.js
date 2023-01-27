@@ -196,7 +196,7 @@ var config_data = `
       "defaultValue": "x"
     },
     { "name": "Docking Order",
-      "code": "fs",
+      "code": "fo",
       "type":"radio",
       "choices": {
         "f": "First",
