@@ -146,6 +146,10 @@ var config_data = `
       "shape": "circle 12 black red true",
       "cycleTimer": "tct"
     },
+    { "name": "Links Scored",
+      "code": "ls",
+      "type": "counter"
+    },
     { "name": "Feeder Count<br>(Fed another bot)",
       "code": "tfc",
       "type": "counter"
@@ -208,10 +212,6 @@ var config_data = `
     }
   ],
   "postmatch": [
-    { "name": "Links Scored",
-      "code": "ls",
-      "type": "counter"
-    },
     { "name": "Fouls",
       "code": "foul",
       "type": "counter"
