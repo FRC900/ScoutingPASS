@@ -140,7 +140,7 @@ var config_data = `
       "filename": "2023/grid_image.png",
       "dimensions": "9 4",
       "clickRestriction": "onePerBox",
-      "toggleClick": "true",
+      "toggleClick": "false",
       "showFlip": "false",
       "showUndo": "false",
       "shape": "circle 12 black red true",
