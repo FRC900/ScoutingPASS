@@ -153,6 +153,7 @@ var config_data = `
     { "name": "Was Fed",
       "code": "wF",
       "type": "bool"
+    },
     { "name": "Floor Pickup",
       "code": "tfpu",
       "type": "radio",
@@ -163,7 +164,7 @@ var config_data = `
         "x": "Not Attempted"
       },
       "defaultValue": "x"
-    }
+    },
     { "name": "Single Substation Pickup",
       "code": "ssp",
       "type": "bool"
