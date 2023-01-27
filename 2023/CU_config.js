@@ -206,6 +206,10 @@ var config_data = `
       },
       "defaultValue": "x"
     },
+    { "name": "Sabotaged Engage",
+      "code": "se",
+      "type": "bool"
+    },
     { "name": "Total # of alliance<br>robots docked/engaged",
       "code": "dn",
       "type": "counter"
