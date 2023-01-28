@@ -59,9 +59,9 @@ var config_data = `
       "code": "as",
       "type": "clickable_image",
       "filename": "2023/field_image.png",
+      "showFlip": "false",
       "clickRestriction": "one",
       "shape": "circle 5 black red true"
-
     }
   ],
   "auton": [
@@ -83,7 +83,6 @@ var config_data = `
       "dimensions": "9 4",
       "toggleClick": "false",
       "showFlip": "false",
-      "showUndo": "false",
       "shape": "circle 12 black red true",
       "cycleTimer": "tct"
     },
@@ -152,7 +151,6 @@ var config_data = `
       "dimensions": "9 4",
       "toggleClick": "false",
       "showFlip": "false",
-      "showUndo": "false",
       "shape": "circle 12 black red true",
       "cycleTimer": "tct"
     },
