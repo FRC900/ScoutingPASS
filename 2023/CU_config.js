@@ -76,6 +76,17 @@ var config_data = `
       "showUndo": "false",
       "shape": "circle 12 black red true"
     },
+    { "name": "Missed Pieces",
+      "code": "amg",
+      "type": "clickable_image",
+      "filename": "2023/grid_image.png",
+      "dimensions": "9 4",
+      "toggleClick": "false",
+      "showFlip": "false",
+      "showUndo": "false",
+      "shape": "circle 12 black red true",
+      "cycleTimer": "tct"
+    },
     { "name": "Crossed Charging Station",
       "code": "acs",
       "type": "bool"
@@ -139,7 +150,6 @@ var config_data = `
       "type": "clickable_image",
       "filename": "2023/grid_image.png",
       "dimensions": "9 4",
-      "clickRestriction": "onePerBox",
       "toggleClick": "false",
       "showFlip": "false",
       "showUndo": "false",
