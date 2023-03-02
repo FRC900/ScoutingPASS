@@ -1,22 +1,18 @@
 CACHE MANIFEST
 # v1.0 : 04-02-2022
- 
- "resources/js/easy.qrcode.min.js"></script>
-		<script src="resources/js/TBAInterface.js"></script>
-		<script src="resources/js/scoutingPASS.js"></script>
-		<script src="2022/RR_config.js"></script>
-		<link rel="stylesheet" href="resources/css/scoutingPASS.css">
- 
+  
 CACHE:
 # pages
 index.html
  
 # styles & scripts
-/js/easy.qrcode.min.js
+resources/js/easy.qrcode.min.js
 resources/js/TBAInterface.js
-js/default.js
+resources/js/easy.qrcode.min.js
+resources/js/default.js
 2022/RR_config.js
+2022/field_image.png
 resources/css/scoutingPASS.css
-
-
-
+resources/fonts/alex.woff
+resources/fonts/alexisv3.ttf
+resources/images/field_location_key.png

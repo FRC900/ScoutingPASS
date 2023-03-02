@@ -27,7 +27,7 @@ html, body{
     border-color: white;
 }
 
-#auton_table, #endgame_table, #teleop_table {
+#auton_table, #endgame_table, #teleop_table, #defense_table {
     font-family : -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     color: black;
     font-size: 13px;
@@ -37,8 +37,12 @@ html, body{
     border-color: black;
 }
 
+.button {
+    font-family: Alexis; 
+    font-size: 16px;
+}
 
-#autonHeader, #endgameHeader, #teleopHeader1, #teleopHeader2{
+#autonHeader, #endgameHeader, #teleopHeader1, #teleopHeader2, #defenseHeader{
     color: black;
     border-color: black;
     border-width: 4px;
@@ -90,6 +94,9 @@ html, body{
 }
 
 #teleop{
+}
+
+#defense{
 }
 
 #endgame{
@@ -148,7 +155,7 @@ h2{
     display: flex;
 }
 
-#nextButton1, #nextButton2, #nextButton9, #nextButton10, .clearForm{
+#nextButton1, #nextButton2, #nextButton9, #nextButton10, .clearForm, .submitForm, #displayButton, #copyButton {
     font-family: Alexis; 
     padding: 10px;
     background-color: rgb(151, 199, 240);
@@ -156,11 +163,19 @@ h2{
     display: inline-block;
 }
 
-#nextButton3, #nextButton4, #nextButton5, #nextButton6, #nextButton7, #nextButton8, .undoButton{
+#nextButton3, #nextButton4, #nextButton5, #nextButton6, #nextButton7, #nextButton8 {
     font-family: Alexis;
     background-color: black; 
     padding: 10px;
     color: white;
+}
+
+.undoButton, .flipButton {
+    font-family: Alexis;
+    background-color: black; 
+    padding: 10px;
+    color: white;
+    margin-left: 20px;
 }
 
 #prevButton7, #prevButton8, #prevButton9{
@@ -223,4 +238,9 @@ input {
     text-align: center;
     color: black;
     background-color: white;
+}
+
+#data {
+    font-family:'Lucida Console', 'monospace';
+    text-align: justify;
 }

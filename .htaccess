@@ -1,0 +1,10 @@
+# Turn off the Last Modified header
+<filesMatch "\.(html|htm|js|css)$">
+  FileETag None
+  <ifModule mod_headers.c>
+     Header unset ETag
+     Header unset Last-Modified
+     Header set Cache-Control "max-age=9000000000, public"
+     Header set Expires "Wed, 11 Jan 2030 05:00:00 GMT"
+  </ifModule>
+</filesMatch>
