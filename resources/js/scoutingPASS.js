@@ -1008,7 +1008,9 @@ function clearForm() {
     if (code.substring(0, 2) == "r_") continue
     if (code.substring(0, 2) == "l_") continue
     if (code == "e") continue
-    if (code == "r") continue
+    if (code.substring(0, 8) == "input_r_") continue
+    if (code.substring(0, 8) == "input__") continue
+
   
 
     if (e.className == "clickableImage") {
