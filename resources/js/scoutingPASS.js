@@ -1009,7 +1009,15 @@ function clearForm() {
     if (code.substring(0, 2) == "l_") continue
     if (code == "e") continue
     if (code.substring(0, 8) == "input_r_") continue
-    if (code.substring(0, 8) == "input__") continue
+    if (code.substring(0, 8) == "input_l_") continue
+    if (code == "r") continue
+    if (code == "r1") continue
+    if (code == "r2") continue
+    if (code == "r3") continue
+    if (code == "l1") continue
+    if (code == "l2") continue
+    if (code == "l3") continue
+
 
   
 
