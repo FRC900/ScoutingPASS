@@ -1002,6 +1002,8 @@ function clearForm() {
   inputs = document.querySelectorAll("[id*='input_']");
   for (e of inputs) {
     code = e.id.substring(6)
+    console.log(code)
+    alert(code)
 
     // Don't clear key fields
     if (code == "m") continue
