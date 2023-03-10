@@ -1003,25 +1003,16 @@ function clearForm() {
   for (e of inputs) {
     code = e.id.substring(6)
     console.log(code)
-    alert(code)
 
     // Don't clear key fields
     if (code == "m") continue
-    if (code.substring(0, 2) == "r_") continue
+    if (code.substring(0, 2) == "r_")
+    {
+      alert(code)
+    }
     if (code.substring(0, 2) == "l_") continue
     if (code == "e") continue
-    if (code.substring(0, 8) == "input_r_") continue
-    if (code.substring(0, 8) == "input_l_") continue
-    if (code == "r") continue
-    if (code == "r1") continue
-    if (code == "r2") continue
-    if (code == "r3") continue
-    if (code == "l1") continue
-    if (code == "l2") continue
-    if (code == "l3") continue
 
-
-  
 
     if (e.className == "clickableImage") {
       e.value = "[]";
