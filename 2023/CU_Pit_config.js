@@ -63,23 +63,17 @@ var config_data = `
       "defaultValue": "0"
     },
     { "name": "Reversible Bumpers",
-      "code": "bumpers_revers",
+      "code": "bp_rev",
       "type": "bool"
     },
     { "name": "Comments",
-      "code": "pit_comments",
+      "code": "pt_com",
       "type": "text",
-      "size": 15,
+      "size": 50,
       "maxSize": 200
     }
   ],
   "auton": [
-    { "name": "Other Drivetrain",
-      "code": "odt",
-      "type": "text",
-      "size": 20,
-      "maxSize": 50
-    }
   ],
   "teleop": [
   ],
