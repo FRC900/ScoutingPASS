@@ -71,7 +71,7 @@ var config_data = `
       "type": "text",
       "size": 15,
       "maxSize": 200
-    },
+    }
   ],
   "auton": [
     { "name": "Other Drivetrain",
