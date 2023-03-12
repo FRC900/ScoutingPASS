@@ -8,16 +8,6 @@ var config_data = `
       "code": "t",
       "type": "number"
     },
-    { "name": "Width",
-      "code": "wid",
-      "type": "number",
-      "defaultValue": "0"
-    },
-    { "name": "Weight",
-      "code": "wei",
-      "type": "number",
-      "defaultValue": "0"
-    },
     { "name": "Drivetrain",
       "code": "drv",
       "type": "radio",
@@ -36,59 +26,60 @@ var config_data = `
       "size": 20,
       "maxSize": 50
     },
-    { "name": "Swerve Ratio",
-      "code": "sr",
+    { "name": "Electrical",
+      "code": "electrical",
       "type": "radio",
       "choices": {
-        "1": "L1<br>",
-        "2": "L2<br>",
-        "3": "L3<br>",
-        "4": "L4<br>",
-        "x": "Not Swerve"
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
       },
-      "defaultValue":"x"
+      "defaultValue": "0"
     },
-    { "name": "Drivetrain Motor",
-      "code": "mot",
+    { "name": "Robot Organization",
+      "code": "Org",
       "type": "radio",
       "choices": {
-        "n": "Neo<br>",
-        "f": "Falcon<br>",
-        "c": "CIM<br>",
-        "x": "Other<br>"
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
       },
-      "defaultValue":"x"
+      "defaultValue": "0"
     },
-    { "name": "# of Batteries",
-      "code": "nob",
-      "type": "number"
+    { "name": "Bumpers",
+      "code": "bumpers",
+      "type": "radio",
+      "choices": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
+      },
+      "defaultValue": "0"
     },
-    { "name": "Floor pickup Cones",
-      "code": "fco",
+    { "name": "Reversible Bumpers",
+      "code": "bumpers_revers",
       "type": "bool"
     },
-    { "name": "Floor pickup Cubes",
-      "code": "fcu",
-      "type": "bool"
-    },
-    { "name": "Cross Charging Station",
-      "code": "ccs",
-      "type": "bool"
-    },
-    { "name": "Autos",
-      "code": "aut",
+    { "name": "Comments",
+      "code": "pit_comments",
       "type": "text",
-      "size": 20,
-      "maxSize": 250
+      "size": 15,
+      "maxSize": 200
     },
-    { "name": "Scouting Method /<br>Program (ScoutingPASS?)",
-      "code": "sct",
-      "type": "text",
-      "size": 20,
-      "maxSize": 250
-    }
   ],
   "auton": [
+    { "name": "Other Drivetrain",
+      "code": "odt",
+      "type": "text",
+      "size": 20,
+      "maxSize": 50
+    },
   ],
   "teleop": [
   ],
