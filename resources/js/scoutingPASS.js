@@ -599,9 +599,8 @@ function addLinebreak(table, idx) {
   var cell1 = row.insertCell(0);
   cell1.classList.add("title");
   
-  var cell2 = row.insertCell(1);
+ 
   cell1.innerHTML = '<hr />';
-
 
 
   return idx + 1;
