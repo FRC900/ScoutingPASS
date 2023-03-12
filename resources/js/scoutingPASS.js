@@ -602,11 +602,7 @@ function addLinebreak(table, idx) {
   var cell2 = row.insertCell(1);
   cell1.innerHTML = '<hr />';
 
-  cell2.classList.add("field");
-  var inp = document.createElement("<hr />");
-  inp.setAttribute("id", "linebreak");
-  inp.setAttribute("type", "break");
-  cell2.appendChild(inp);
+
 
   return idx + 1;
 }
