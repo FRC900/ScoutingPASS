@@ -26,8 +26,21 @@ var config_data = `
       "size": 20,
       "maxSize": 50
     },
-    { "name": "Electrical",
-      "code": "electrical",
+    { "name": "Electrical Protection",
+      "code": "electricalProt",
+      "type": "radio",
+      "choices": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
+      },
+      "defaultValue": "0",
+      "tooltip": "how shielded are components and wires; are wires likely to get pulled"
+    },
+    { "name": "Electrical Organization",
+      "code": "electricalOrg",
       "type": "radio",
       "choices": {
         "1": "1",
@@ -38,17 +51,15 @@ var config_data = `
       },
       "defaultValue": "0"
     },
-    { "name": "Robot Organization",
-      "code": "Org",
+    { "name": "Type of Wire Connectors",
+      "code": "electricalConn",
       "type": "radio",
       "choices": {
-        "1": "1",
-        "2": "2",
-        "3": "3",
-        "4": "4",
-        "5": "5"
+        "e": "Electrical Tape",
+        "s": "Solder & Heat Shrink",
+        "p": "Pinch Connectors (ie Anderson)"
       },
-      "defaultValue": "0"
+      "defaultValue": "x"
     },
     { "name": "Bumpers",
       "code": "bumpers",
@@ -67,7 +78,7 @@ var config_data = `
       "type": "bool"
     },
     { "name": "Comments",
-      "code": "pittCom",
+      "code": "pitCom",
       "type": "text",
       "size": 30
     }
