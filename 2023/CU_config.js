@@ -162,13 +162,13 @@ var config_data = `
       "code": "tfc",
       "type": "counter"
     },
-    { "name": "Was Defended",
-      "code": "wd",
+    { "name": "Hindrance",
+      "code": "hind",
       "type": "bool"
     },
-    { "name": "Who Defended this bot",
-      "code": "who",
-      "type": "text"
+    { "name": "Blocking",
+      "code": "block",
+      "type": "bool"
     },
     { "name": "Smart Placement<br>(creates Links)",
       "code": "lnk",
