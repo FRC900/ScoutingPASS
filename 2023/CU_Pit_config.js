@@ -63,11 +63,11 @@ var config_data = `
       "defaultValue": "0"
     },
     { "name": "Reversible Bumpers",
-      "code": "bpRev",
+      "code": "bumpRev",
       "type": "bool"
     },
     { "name": "Comments",
-      "code": "ptCom",
+      "code": "pittCom",
       "type": "text",
       "size": 30
     }
