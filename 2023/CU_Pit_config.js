@@ -64,13 +64,12 @@ var config_data = `
     },
     { "name": "Reversible Bumpers",
       "code": "bp_rev",
-      "type": "bool"
+      "type": "checkbox"
     },
     { "name": "Comments",
       "code": "pt_com",
       "type": "text",
-      "size": 50,
-      "maxSize": 200
+      "size": 30
     }
   ],
   "auton": [
