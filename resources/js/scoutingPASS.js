@@ -603,7 +603,7 @@ function addLinebreak(table, idx) {
   cell1.innerHTML = '<hr />';
 
   cell2.classList.add("field");
-  var inp = document.createElement("input");
+  var inp = document.createElement("<hr />");
   inp.setAttribute("id", "linebreak");
   inp.setAttribute("type", "break");
   cell2.appendChild(inp);
