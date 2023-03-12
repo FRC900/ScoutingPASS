@@ -26,6 +26,9 @@ var config_data = `
       "size": 20,
       "maxSize": 50
     },
+    {
+      "type": "break"
+    },
     { "name": "Electrical Protection",
       "code": "electricalProt",
       "type": "radio",
@@ -64,7 +67,6 @@ var config_data = `
       "type": "bool"
     },
     {
-      "name": "Electrical Break",
       "type": "break"
     },
     { "name": "Bumpers",
@@ -82,6 +84,9 @@ var config_data = `
     { "name": "Reversible Bumpers",
       "code": "bumpRev",
       "type": "bool"
+    },
+    {
+      "type": "break"
     },
     { "name": "Comments",
       "code": "pitCom",
