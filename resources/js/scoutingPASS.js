@@ -594,6 +594,12 @@ function addCheckbox(table, idx, name, data) {
 
   return idx + 1;
 }
+function addLinebreak(table, idx) {
+  var row = table.insertRow(idx);
+  document.createElement('<hr />')
+
+  return idx + 1;
+}
 
 function addElement(table, idx, data) {
   var type = null;
@@ -641,6 +647,8 @@ function addElement(table, idx, data) {
   } else if ((data.type == 'timer') ||
 	     (data.type == 'cycle')) {
     idx = addTimer(table, idx, name, data);
+  } else if (data.type == 'break') {
+    idx = addLinebreak(table, idx);
   } else {
     console.log(`Unrecognized type: ${data.type}`);
   }

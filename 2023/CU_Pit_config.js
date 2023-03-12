@@ -51,16 +51,6 @@ var config_data = `
       },
       "defaultValue": "0"
     },
-    { "name": "Type of Wire Connectors",
-      "code": "electricalConn",
-      "type": "radio",
-      "choices": {
-        "e": "Electrical Tape<br />",
-        "s": "Solder & Heat Shrink<br />",
-        "p": "Pinch Connectors (ie Anderson)<br />"
-      },
-      "defaultValue": "x"
-    },
     { "name": "Electrical Tape?",
       "code": "elecTape",
       "type": "bool"
@@ -72,6 +62,10 @@ var config_data = `
     { "name": "Pinch Connectors? (ie Anderson)",
       "code": "pinchConn",
       "type": "bool"
+    },
+    {
+      "name": "Electrical Break",
+      "type": "break"
     },
     { "name": "Bumpers",
       "code": "bumpers",
