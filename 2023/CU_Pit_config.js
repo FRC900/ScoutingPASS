@@ -61,6 +61,18 @@ var config_data = `
       },
       "defaultValue": "x"
     },
+    { "name": "Electrical Tape?",
+      "code": "elecTape",
+      "type": "bool"
+    },
+    { "name": "Solder + Heat Shrink?",
+      "code": "solder",
+      "type": "bool"
+    },
+    { "name": "Pinch Connectors? (ie Anderson)",
+      "code": "pinchConn",
+      "type": "bool"
+    },
     { "name": "Bumpers",
       "code": "bumpers",
       "type": "radio",
