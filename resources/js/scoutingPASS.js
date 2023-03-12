@@ -597,8 +597,8 @@ function addCheckbox(table, idx, name, data) {
 function addLinebreak(table, idx) {
   var row = table.insertRow(idx);
   var cell1 = row.insertCell(0);
-  cell1.classList.add("title");
-  cell1.colspan = 2;
+  //cell1.classList.add("title");
+  cell1.colSpan = 2;
   
   //var cell2 = row.insertCell(1);
   cell1.innerHTML = '<hr />';
