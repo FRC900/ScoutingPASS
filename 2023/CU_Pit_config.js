@@ -55,9 +55,9 @@ var config_data = `
       "code": "electricalConn",
       "type": "radio",
       "choices": {
-        "e": "Electrical Tape",
-        "s": "Solder & Heat Shrink",
-        "p": "Pinch Connectors (ie Anderson)"
+        "e": "Electrical Tape<br />",
+        "s": "Solder & Heat Shrink<br />",
+        "p": "Pinch Connectors (ie Anderson)<br />"
       },
       "defaultValue": "x"
     },
