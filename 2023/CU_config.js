@@ -244,6 +244,10 @@ var config_data = `
       "code": "die",
       "type": "bool"
     },
+    { "name": "Tipped?",
+      "code": "tip",
+      "type": "bool"
+    },
     { "name": "Comments",
       "code": "co",
       "type": "text",
