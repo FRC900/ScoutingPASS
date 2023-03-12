@@ -989,7 +989,7 @@ function clearForm() {
     }
 
     // Robot
-    resetRobot()
+    //resetRobot()
   }
 
   // Clear XY coordinates
@@ -1006,10 +1006,7 @@ function clearForm() {
 
     // Don't clear key fields
     if (code == "m") continue
-    if (code.substring(0, 2) == "r_")
-    {
-      alert(code)
-    }
+    if (code.substring(0, 2) == "r_") continue
     if (code.substring(0, 2) == "l_") continue
     if (code == "e") continue
 
@@ -1021,7 +1018,7 @@ function clearForm() {
 
     radio = code.indexOf("_")
     if (radio > -1) {
-     /* var baseCode = code.substr(0, radio)
+      var baseCode = code.substr(0, radio)
       if (e.checked) {
         e.checked = false
         document.getElementById("display_" + baseCode).value = ""
@@ -1032,7 +1029,7 @@ function clearForm() {
           e.checked = true
           document.getElementById("display_" + baseCode).value = defaultValue
         }
-      }*/
+      }
     } else {
       if (e.type == "number" || e.type == "text" || e.type == "hidden") {
         if ((e.className == "counter") ||
