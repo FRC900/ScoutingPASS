@@ -596,7 +596,8 @@ function addCheckbox(table, idx, name, data) {
 }
 function addLinebreak(table, idx) {
   var row = table.insertRow(idx);
-  document.createElement('<hr />')
+  element =  document.createElement('<hr />')
+  document.body.appendChild(element);
 
   return idx + 1;
 }
