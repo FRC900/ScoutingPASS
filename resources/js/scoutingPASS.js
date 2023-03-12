@@ -598,12 +598,13 @@ function addLinebreak(table, idx) {
   var row = table.insertRow(idx);
   var cell1 = row.insertCell(0);
   cell1.classList.add("title");
+  cell1.colspan = 2;
   
-  var cell2 = row.insertCell(1);
+  //var cell2 = row.insertCell(1);
   cell1.innerHTML = '<hr />';
-  cell2.classList.add("title");
+  //cell2.classList.add("title");
 
-  cell2.innerHTML = '<hr />';
+  //cell2.innerHTML = '<hr />';
 
   return idx + 1;
 }
