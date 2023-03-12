@@ -166,10 +166,6 @@ var config_data = `
       "code": "hind",
       "type": "bool"
     },
-    { "name": "Blocking",
-      "code": "block",
-      "type": "bool"
-    },
     { "name": "Smart Placement<br>(creates Links)",
       "code": "lnk",
       "type": "bool"
