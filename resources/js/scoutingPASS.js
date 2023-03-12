@@ -596,8 +596,22 @@ function addCheckbox(table, idx, name, data) {
 }
 function addLinebreak(table, idx) {
   var row = table.insertRow(idx);
-  element =  document.createElement('<hr />')
-  document.body.appendChild(element);
+  var cell1 = row.insertCell(0);
+  cell1.classList.add("title");
+  if (!data.hasOwnProperty('code')) {
+    cell1.innerHTML = `Error: No code specified for ${name}`;
+    return idx + 1;
+  }
+  var cell2 = row.insertCell(1);
+  cell1.innerHTML = name + '&nbsp;';
+  if (data.hasOwnProperty('tooltip')) {
+    cell1.setAttribute("title", data.tooltip);
+  }
+  cell2.classList.add("field");
+  var inp = document.createElement("input");
+  inp.setAttribute("id", "linebreak");
+  inp.setAttribute("type", "break");
+  cell2.appendChild(inp);
 
   return idx + 1;
 }
