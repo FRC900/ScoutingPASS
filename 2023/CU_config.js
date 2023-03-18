@@ -14,7 +14,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2023ncash",  
+      "defaultValue": "2023ncwak",  
       "required": "true",
       "disabled": "true"
     },
