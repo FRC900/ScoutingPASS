@@ -92,7 +92,7 @@ var config_data = `
         "x": "Not attempted"
       },
       "defaultValue": "x"
-    }
+    },
     { "name": "Floor Pickup",
       "code": "afpu",
       "type": "radio",
