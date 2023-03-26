@@ -168,7 +168,8 @@ var config_data = `
     },
     { "name": "Smart Placement<br>(creates Links)",
       "code": "lnk",
-      "type": "bool"
+      "type": "bool",
+      "defaultValue":"1"
     },
     { "name": "Floor Pickup",
       "code": "tfpu",
