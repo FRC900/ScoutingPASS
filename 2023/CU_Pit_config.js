@@ -85,6 +85,34 @@ var config_data = `
       "code": "bumpRev",
       "type": "bool"
     },
+    { "name": "Bumper Attachment",
+      "code": "bumper_attach",
+      "type": "radio",
+      "choices": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
+      },
+      "defaultValue": "0"
+    },
+    { "name": "Bumper Coverage",
+      "code": "bumper_coverage",
+      "type": "radio",
+      "choices": {
+        "1": "1 - Corners Only",
+        "2": "2 - Corners + U combo",
+        "3": "3",
+        "4": "4 - Full Coverage minus intake cutout",
+        "5": "5 - Full Coverage"
+      },
+      "defaultValue": "0"
+    },
+    { "name": "Bumper Comments",
+      "code": "bumper_comment",
+      "type": "text"
+    },
     {
       "type": "break"
     },
