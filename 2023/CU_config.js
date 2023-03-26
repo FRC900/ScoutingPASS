@@ -14,7 +14,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2023ncash",  
+      "defaultValue": "2023ncwak",  
       "required": "true",
       "disabled": "true"
     },
@@ -54,14 +54,6 @@ var config_data = `
       "type": "team",
       "min": 1,
       "max": 99999
-    },
-    { "name": "Auto Start Position",
-      "code": "as",
-      "type": "clickable_image",
-      "filename": "2023/field_image.png",
-      "showFlip": "false",
-      "clickRestriction": "one",
-      "shape": "circle 5 black red true"
     }
   ],
   "auton": [
@@ -86,10 +78,6 @@ var config_data = `
       "shape": "circle 12 black red true",
       "cycleTimer": "tct"
     },
-    { "name": "Crossed Charging Station",
-      "code": "acs",
-      "type": "bool"
-    },
     { "name": "Mobility?",
       "code": "am",
       "type": "bool"
@@ -102,16 +90,6 @@ var config_data = `
         "e": "Engaged<br>",
         "a": "Attempted but failed<br>",
         "x": "Not attempted"
-      },
-      "defaultValue": "x"
-    },
-    { "name": "Preloaded Piece",
-      "code": "ap",
-      "type":"radio",
-      "choices": {
-        "o": "Cone<br>",
-        "u": "Cube<br>",
-        "x": "None<br>"
       },
       "defaultValue": "x"
     },
@@ -168,7 +146,8 @@ var config_data = `
     },
     { "name": "Smart Placement<br>(creates Links)",
       "code": "lnk",
-      "type": "bool"
+      "type": "bool",
+      "defaultValue":"1"
     },
     { "name": "Floor Pickup",
       "code": "tfpu",
@@ -221,10 +200,6 @@ var config_data = `
     { "name": "Detrimental Dock",
       "code": "dd",
       "type": "bool"
-    },
-    { "name": "Total # of alliance<br>robots docked/engaged",
-      "code": "dn",
-      "type": "counter"
     }
   ],
   "postmatch": [
