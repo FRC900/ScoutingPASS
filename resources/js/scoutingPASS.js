@@ -1083,7 +1083,8 @@ function clearForm() {
   }
   drawFields()
   //TODO Working here:
-  updateMatchStart() 
+  //document.getElementById("input_m")
+  autoUpdateMatchStart()
 }
 
 function startTouch(e) {
@@ -1296,7 +1297,7 @@ function getCurrentMatch() {
   return getMatch(getCurrentMatchKey());
 }
 
-function updateMatchStart(event) { //TODO HEre???
+function updateMatchStart(event) { 
   if ((getCurrentMatch() == "") ||
     (!teams)) {
     console.log("No match or team data.");
@@ -1311,6 +1312,17 @@ function updateMatchStart(event) { //TODO HEre???
       document.getElementById("input_t").value = getCurrentTeamNumberFromRobot().replace("frc", "");
       onTeamnameChange();
     }
+  }
+}
+function autoUpdateMatchStart() { //TODO custom method
+  if ((getCurrentMatch() == "") ||
+    (!teams)) {
+    console.log("No match or team data.");
+    return;
+  }
+  if (getRobot() != "" && typeof getRobot()) {
+    document.getElementById("input_t").value = getCurrentTeamNumberFromRobot().replace("frc", "");
+    onTeamnameChange();
   }
 }
 
