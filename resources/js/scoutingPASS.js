@@ -1082,6 +1082,7 @@ function clearForm() {
     }
   }
   drawFields()
+  getCurrentTeamNumberFromRobot()
 }
 
 function startTouch(e) {
