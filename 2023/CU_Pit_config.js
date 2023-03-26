@@ -101,11 +101,11 @@ var config_data = `
       "code": "bumper_coverage",
       "type": "radio",
       "choices": {
-        "1": "1 - Corners Only",
-        "2": "2 - Corners + U combo",
-        "3": "3",
-        "4": "4 - Full Coverage minus intake cutout",
-        "5": "5 - Full Coverage"
+        "1": "1 - Corners Only <br />",
+        "2": "2 - Corners + U combo<br />",
+        "3": "3<br />",
+        "4": "4 - Full Coverage minus intake cutout<br />",
+        "5": "5 - Full Coverage<br />"
       },
       "defaultValue": "0"
     },
