@@ -69,18 +69,6 @@ var config_data = `
     {
       "type": "break"
     },
-    { "name": "Bumpers",
-      "code": "bumpers",
-      "type": "radio",
-      "choices": {
-        "1": "1",
-        "2": "2",
-        "3": "3",
-        "4": "4",
-        "5": "5"
-      },
-      "defaultValue": "0"
-    },
     { "name": "Reversible Bumpers",
       "code": "bumpRev",
       "type": "bool"
