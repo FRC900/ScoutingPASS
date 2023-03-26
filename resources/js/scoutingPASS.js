@@ -1082,7 +1082,8 @@ function clearForm() {
     }
   }
   drawFields()
-  //getCurrentTeamNumberFromRobot() TODO
+  //TODO Working here:
+  updateMatchStart() 
 }
 
 function startTouch(e) {
@@ -1295,7 +1296,7 @@ function getCurrentMatch() {
   return getMatch(getCurrentMatchKey());
 }
 
-function updateMatchStart(event) {
+function updateMatchStart(event) { //TODO HEre???
   if ((getCurrentMatch() == "") ||
     (!teams)) {
     console.log("No match or team data.");
