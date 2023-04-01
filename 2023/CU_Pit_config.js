@@ -67,18 +67,7 @@ var config_data = `
       "code": "bumpRev",
       "type": "bool"
     },
-    { "name": "Bumper Coverage",
-      "code": "bumper_coverage",
-      "type": "radio",
-      "choices": {
-        "1": "1 - Corners Only <br />",
-        "2": "2 - Corners + U combo<br />",
-        "3": "3<br />",
-        "4": "4 - Full Coverage minus intake cutout<br />",
-        "5": "5 - Full Coverage<br />"
-      },
-      "defaultValue": "0"
-    },
+ 
     { "name": "Bumper Comments",
       "code": "bumper_comment",
       "type": "text"
