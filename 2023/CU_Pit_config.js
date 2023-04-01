@@ -67,18 +67,6 @@ var config_data = `
       "code": "bumpRev",
       "type": "bool"
     },
-    { "name": "Bumper Attachment",
-      "code": "bumper_attach",
-      "type": "radio",
-      "choices": {
-        "1": "1",
-        "2": "2",
-        "3": "3",
-        "4": "4",
-        "5": "5"
-      },
-      "defaultValue": "0"
-    },
     { "name": "Bumper Coverage",
       "code": "bumper_coverage",
       "type": "radio",
