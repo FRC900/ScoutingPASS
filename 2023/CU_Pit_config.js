@@ -68,7 +68,7 @@ var config_data = `
       "type": "bool"
     },
     { "name": "Bumper Attachment",
-      "code": "bumper_attach",
+      "code": "bumperAtt",
       "type": "radio",
       "choices": {
         "1": "1",
