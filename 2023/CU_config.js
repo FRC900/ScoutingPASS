@@ -14,7 +14,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2023nccmp",  
+      "defaultValue": "2023micmp2",  
       "required": "true",
       "disabled": "true"
     },
