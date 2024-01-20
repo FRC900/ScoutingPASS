@@ -169,6 +169,10 @@ var config_data = `
     }
   ],
   "endgame": [
+    { "name": "Space",
+      "code": "endgame",
+      "type": "counter"
+    }
   ],
   "postmatch": [
     { "name": "Fouls",
