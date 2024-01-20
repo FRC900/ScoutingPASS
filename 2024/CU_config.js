@@ -81,7 +81,7 @@ var config_data = `
       "code": "auto_notes",
       "type": "clickable_image",
       "filename": "2024/field_image.png",
-      "shape": "circle 12 black red true",
+      "shape": "circle 12 black red true"
     },
     { "name": "Did they cross  ZONE?",
       "code": "auto_move",
