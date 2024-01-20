@@ -59,19 +59,19 @@ var config_data = `
   "auton": [
     { "name": "Auto Amp Scored",
       "code": "auto_amp_score",
-      "type": "counter",
+      "type": "counter"
     },
     { "name": "Auto Amp Missed",
       "code": "auto_amp_miss",
-      "type": "counter",
+      "type": "counter"
     },
     { "name": "Auto Speaker Scored",
       "code": "auto_spk_score",
-      "type": "counter",
+      "type": "counter"
     },
     { "name": "Auto Speaker Missed",
       "code": "auto_spk_miss",
-      "type": "counter",
+      "type": "counter"
     },
     { "name": "Did they leave the STARTING ZONE?",
       "code": "auto_move",
@@ -94,7 +94,7 @@ var config_data = `
     { "name": "Did they recieve a foul in Auto",
       "code": "auto_foul",
       "type": "bool"
-  }
+    }
   ],
   "teleop": [
     { "name": "Cycle Timer",
