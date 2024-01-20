@@ -153,7 +153,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Cycle Timer",
-      "code": "tct",
+      "code": "t_climb_time",
       "type": "cycle"
     },
     { "name": "Climb",
@@ -169,41 +169,18 @@ var config_data = `
     }
   ],
   "endgame": [
-    { "name": "Docking Timer",
-      "code": "dt",
-      "type": "timer"
-    },
-    { "name": "Final Status",
-      "code": "fs",
-      "type":"radio",
-      "choices": {
-        "p": "Parked<br>",
-        "d": "Docked (Not Engaged)<br>",
-        "e": "Engaged<br>",
-        "a": "Attempted but failed<br>",
-        "x": "Not attempted"
-      },
-      "defaultValue": "x"
-    },
-    { "name": "Docking Order",
-      "code": "fo",
-      "type":"radio",
-      "choices": {
-        "f": "First",
-        "s": "Seconds",
-        "t": "Third",
-        "x": "Did not dock"
-      },
-      "defaultValue": "x"
-    },
-    { "name": "Detrimental Dock",
-      "code": "dd",
-      "type": "bool"
+    { "name": "Space",
+      "code": "endgame",
+      "type": "counter"
     }
   ],
   "postmatch": [
     { "name": "Fouls",
       "code": "foul",
+      "type": "counter"
+    },
+    { "name": "Tech Fouls",
+      "code": "tech_foul",
       "type": "counter"
     },
     { "name": "Yellow Cards",
