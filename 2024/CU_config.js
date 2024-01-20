@@ -108,8 +108,18 @@ var config_data = `
       "type": "counter",
       "cycleTimer": "tct"
     },
+    { "name": "Speaker Near Miss",
+      "code": "t_skr_near_miss",
+      "type": "counter",
+      "cycleTimer": "tct"
+    },
     { "name": "Speaker Far Scoring",
       "code": "t_skr_far",
+      "type": "counter",
+      "cycleTimer": "tct"
+    },
+    { "name": "Speaker Far Miss",
+      "code": "t_skr_far_miss",
       "type": "counter",
       "cycleTimer": "tct"
     },
@@ -118,57 +128,45 @@ var config_data = `
       "type": "counter",
       "cycleTimer": "tct"
     },
+    { "name": "Amp Near Miss",
+      "code": "t_amp_near_miss",
+      "type": "counter",
+      "cycleTimer": "tct"
+    },
     { "name": "Amp Far Scoring",
       "code": "t_amp_far",
       "type": "counter",
       "cycleTimer": "tct"
     },
-    { "name": "Missed Pieces",
-      "code": "tmg",
-      "type": "clickable_image",
-      "filename": "2023/grid_image.png",
-      "dimensions": "9 4",
-      "toggleClick": "false",
-      "showFlip": "false",
-      "shape": "circle 12 black red true",
+    { "name": "Amp Far Miss",
+      "code": "t_amp_far_miss",
+      "type": "counter",
       "cycleTimer": "tct"
     },
-    { "name": "Links Scored",
-      "code": "ls",
+    { "name": "Trap Score",
+      "code": "t_trap",
+      "type": "counter",
+      "cycleTimer": "tct"
+    },
+    { "name": "Trap Miss",
+      "code": "t_trap_miss",
       "type": "counter"
     },
-    { "name": "Feeder Count<br>(Fed another bot)",
-      "code": "tfc",
-      "type": "counter"
+    { "name": "Cycle Timer",
+      "code": "tct",
+      "type": "cycle"
     },
-    { "name": "Hindrance",
-      "code": "hind",
-      "type": "bool"
-    },
-    { "name": "Smart Placement<br>(creates Links)",
-      "code": "lnk",
-      "type": "bool",
-      "defaultValue":"1"
-    },
-    { "name": "Floor Pickup",
-      "code": "tfpu",
+    { "name": "Climb",
+      "code": "t_climb",
       "type": "radio",
       "choices": {
-        "o": "Cones<br>",
-        "u": "Cubes<br>",
-        "b": "Both<br>",
+        "p": "Climb with Others<br>",
+        "a": "Climb Alone<br>",
+        "f": "Attempted but failed<br>",
         "x": "Not Attempted"
       },
       "defaultValue": "x"
     },
-    { "name": "Single Substation Pickup",
-      "code": "ssp",
-      "type": "bool"
-    },
-    { "name": "Double Substation Pickup",
-      "code": "dsp",
-      "type": "bool"
-    }
   ],
   "endgame": [
     { "name": "Docking Timer",
