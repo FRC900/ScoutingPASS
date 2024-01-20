@@ -73,17 +73,19 @@ var config_data = `
       "code": "auto_spk_miss",
       "type": "counter"
     },
-    { "name": "Did they leave the STARTING ZONE?",
-      "code": "auto_move",
-      "type": "bool"
+    { "name": "Missed NOTES Pickup",
+      "code": "auto_notes_miss",
+      "type": "counter"
     },
     { "name": "NOTES Picked Up",
-      "code": "auto_notes",
+      "code": "auto_notes_path",
       "type": "clickable_image",
       "filename": "2024/field_image.png",
+      "toggleClick": "true",
+      "showFlip": "false",
       "shape": "circle 12 black red true"
     },
-    { "name": "Did they cross  ZONE?",
+    { "name": "Did they leave the STARTING ZONE?",
       "code": "auto_move",
       "type": "bool"
     },
@@ -101,16 +103,24 @@ var config_data = `
       "code": "tct",
       "type": "cycle"
     },
-    { "name": "Grid Scoring",
-      "code": "tsg",
-      "type": "clickable_image",
-      "filename": "2023/grid_image.png",
-      "dimensions": "9 4",
-      "clickRestriction": "onePerBox",
-      "toggleClick": "true",
-      "showFlip": "false",
-      "showUndo": "false",
-      "shape": "circle 12 black red true",
+    { "name": "Speaker Near Scoring",
+      "code": "t_skr_near",
+      "type": "counter",
+      "cycleTimer": "tct"
+    },
+    { "name": "Speaker Far Scoring",
+      "code": "t_skr_far",
+      "type": "counter",
+      "cycleTimer": "tct"
+    },
+    { "name": "Amp Near Scoring",
+      "code": "t_amp_near",
+      "type": "counter",
+      "cycleTimer": "tct"
+    },
+    { "name": "Amp Far Scoring",
+      "code": "t_amp_far",
+      "type": "counter",
       "cycleTimer": "tct"
     },
     { "name": "Missed Pieces",
