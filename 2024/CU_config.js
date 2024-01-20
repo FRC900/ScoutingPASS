@@ -14,7 +14,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2024new",  
+      "defaultValue": "2024isde1",  
       "required": "true",
       "disabled": "true"
     },
