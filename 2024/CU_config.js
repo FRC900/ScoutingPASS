@@ -151,7 +151,9 @@ var config_data = `
     { "name": "Trap Miss",
       "code": "t_trap_miss",
       "type": "counter"
-    },
+    }
+  ],
+  "endgame": [
     { "name": "Cycle Timer",
       "code": "t_climb_time",
       "type": "cycle"
@@ -166,12 +168,6 @@ var config_data = `
         "x": "Not Attempted"
       },
       "defaultValue": "x"
-    }
-  ],
-  "endgame": [
-    { "name": "Space",
-      "code": "endgame",
-      "type": "counter"
     }
   ],
   "postmatch": [
