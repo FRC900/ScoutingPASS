@@ -163,11 +163,11 @@ var config_data = `
       "type": "radio",
       "choices": {
         "p": "Climb with Others<br>",
-        "a": "Climb Alone<br>",
+        "s": "Climb Alone<br>",
         "f": "Attempted but failed<br>",
-        "x": "Not Attempted"
+        "n": "Not Attempted<br>"
       },
-      "defaultValue": "x"
+      "defaultValue": "n"
     }
   ],
   "postmatch": [
