@@ -154,12 +154,12 @@ var config_data = `
     }
   ],
   "endgame": [
-    { "name": "Cycle Timer",
+    { "name": "Climb Timer",
       "code": "t_climb_time",
       "type": "cycle"
     },
-    { "name": "Docked",
-      "code": "ad",
+    { "name": "Climb Final State",
+      "code": "t_climb_state",
       "type":"radio",
       "choices": {
         "d": "Docked (not Engaged)<br>",
