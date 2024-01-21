@@ -158,16 +158,16 @@ var config_data = `
       "code": "t_climb_time",
       "type": "cycle"
     },
-    { "name": "Climb",
-      "code": "t_climb",
-      "type": "radio",
+    { "name": "Docked",
+      "code": "ad",
+      "type":"radio",
       "choices": {
-        "p": "Climb with Others<br>",
-        "s": "Climb Alone<br>",
-        "f": "Attempted but failed<br>",
-        "n": "Not Attempted<br>"
+        "d": "Docked (not Engaged)<br>",
+        "e": "Engaged<br>",
+        "a": "Attempted but failed<br>",
+        "x": "Not attempted"
       },
-      "defaultValue": "n"
+      "defaultValue": "x"
     }
   ],
   "postmatch": [
