@@ -159,7 +159,7 @@ var config_data = `
       "type": "cycle"
     },
     { "name": "Climb Final State",
-      "code": "t_climb_state",
+      "code": "ad",
       "type":"radio",
       "choices": {
         "d": "Docked (not Engaged)<br>",
