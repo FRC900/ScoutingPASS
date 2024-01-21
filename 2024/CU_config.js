@@ -163,8 +163,8 @@ var config_data = `
       "type":"radio",
       "choices": {
         "p": "Successful Climb with Others<br>",
-        "e": "Engaged<br>",
-        "a": "Attempted but failed<br>",
+        "1": "Climbed Alone<br>",
+        "f": "Attempted but failed<br>",
         "x": "Not attempted"
       },
       "defaultValue": "x"
