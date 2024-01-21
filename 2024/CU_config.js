@@ -157,17 +157,6 @@ var config_data = `
     { "name": "Cycle Timer",
       "code": "t_climb_time",
       "type": "cycle"
-    },
-    { "name": "Climb",
-      "code": "t_climb",
-      "type": "radio",
-      "choices": {
-        "p": "Climb with Others<br>",
-        "a": "Climb Alone<br>",
-        "f": "Attempted but failed<br>",
-        "x": "Not Attempted"
-      },
-      "defaultValue": "x"
     }
   ],
   "postmatch": [
