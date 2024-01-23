@@ -65,6 +65,9 @@ var config_data = `
       "code": "auto_amp_miss",
       "type": "counter"
     },
+    {
+      "type": "break"
+    },
     { "name": "Auto Speaker Scored",
       "code": "auto_spk_score",
       "type": "counter"
