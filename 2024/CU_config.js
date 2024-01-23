@@ -76,6 +76,9 @@ var config_data = `
       "code": "auto_spk_miss",
       "type": "counter"
     },
+    {
+      "type": "break"
+    },
     { "name": "Missed NOTES Pickup",
       "code": "auto_notes_miss",
       "type": "counter"
@@ -121,10 +124,14 @@ var config_data = `
       "type": "counter",
       "cycleTimer": "tct"
     },
+    
     { "name": "Speaker Far Miss",
       "code": "t_skr_far_miss",
       "type": "counter",
       "cycleTimer": "tct"
+    },
+    {
+      "type": "break"
     },
     { "name": "Amp Near Scoring",
       "code": "t_amp_near",
@@ -145,6 +152,9 @@ var config_data = `
       "code": "t_amp_far_miss",
       "type": "counter",
       "cycleTimer": "tct"
+    },
+    {
+      "type": "break"
     },
     { "name": "Trap Score",
       "code": "t_trap",
