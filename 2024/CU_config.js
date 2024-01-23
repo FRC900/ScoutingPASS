@@ -120,7 +120,7 @@ var config_data = `
       "cycleTimer": "tct"
     },
     { "name": "Speaker Shooting Location",
-      "code": "t_skr_location",
+      "code": "tSkrLocation",
       "type":"radio",
       "choices": {
         "p": "Touching Subwolfer<br>",
@@ -144,7 +144,7 @@ var config_data = `
       "cycleTimer": "tct"
     },
     { "name": "Amp Shooting Location",
-      "code": "t_amp_location",
+      "code": "tAmpLocation",
       "type":"radio",
       "choices": {
         "f": "Right in Front<br>",
