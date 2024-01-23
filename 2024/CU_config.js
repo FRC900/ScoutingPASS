@@ -109,49 +109,49 @@ var config_data = `
       "code": "tct",
       "type": "cycle"
     },
-    { "name": "Speaker Near Scoring",
-      "code": "t_skr_near",
+    { "name": "Speaker Scored",
+      "code": "t_skr_score",
       "type": "counter",
       "cycleTimer": "tct"
     },
-    { "name": "Speaker Near Miss",
-      "code": "t_skr_near_miss",
+    { "name": "Speaker Missed",
+      "code": "t_skr_miss",
       "type": "counter",
       "cycleTimer": "tct"
     },
-    { "name": "Speaker Far Scoring",
-      "code": "t_skr_far",
-      "type": "counter",
-      "cycleTimer": "tct"
-    },
-    
-    { "name": "Speaker Far Miss",
-      "code": "t_skr_far_miss",
-      "type": "counter",
-      "cycleTimer": "tct"
+    { "name": "Speaker Shooting Location",
+      "code": "t_skr_location",
+      "type":"radio",
+      "choices": {
+        "p": "Touching Subwolfer<br>",
+        "o": "One Spot<br>",
+        "m": "Many Spots<br>",
+        "x": "Not attempted"
+      },
+      "defaultValue": "x"
     },
     {
       "type": "break"
     },
-    { "name": "Amp Near Scoring",
-      "code": "t_amp_near",
+    { "name": "Amp Scored",
+      "code": "t_amp_score",
       "type": "counter",
       "cycleTimer": "tct"
     },
-    { "name": "Amp Near Miss",
-      "code": "t_amp_near_miss",
+    { "name": "Amp Missed",
+      "code": "t_amp_miss",
       "type": "counter",
       "cycleTimer": "tct"
     },
-    { "name": "Amp Far Scoring",
-      "code": "t_amp_far",
-      "type": "counter",
-      "cycleTimer": "tct"
-    },
-    { "name": "Amp Far Miss",
-      "code": "t_amp_far_miss",
-      "type": "counter",
-      "cycleTimer": "tct"
+    { "name": "Amp Shooting Location",
+      "code": "t_amp_location",
+      "type":"radio",
+      "choices": {
+        "f": "Right in Front<br>",
+        "d": "Distanced<br>",
+        "x": "Not attempted"
+      },
+      "defaultValue": "x"
     },
     {
       "type": "break"
