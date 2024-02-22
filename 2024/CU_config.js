@@ -95,10 +95,6 @@ var config_data = `
       "code": "auto_move",
       "type": "bool"
     },
-    { "name": "Did they cross into opponents WING?",
-      "code": "auto_opponent_wing",
-      "type": "bool"
-    },
     { "name": "Did they recieve a foul in Auto",
       "code": "auto_foul",
       "type": "bool"
@@ -118,17 +114,6 @@ var config_data = `
       "code": "t_skr_miss",
       "type": "counter",
       "cycleTimer": "tct"
-    },
-    { "name": "Speaker Shooting Location",
-      "code": "tSkrLocation",
-      "type":"radio",
-      "choices": {
-        "p": "Touching Subwolfer<br>",
-        "o": "One Spot<br>",
-        "m": "Many Spots<br>",
-        "x": "Not attempted"
-      },
-      "defaultValue": "x"
     },
     {
       "type": "break"
@@ -164,12 +149,10 @@ var config_data = `
     { "name": "Trap Miss",
       "code": "t_trap_miss",
       "type": "counter"
-    }
-  ],
-  "endgame": [
+    },
     { "name": "Climb Timer",
-      "code": "t_climb_time",
-      "type": "cycle"
+    "code": "t_climb_time",
+    "type": "cycle"
     },
     { "name": "Climb Final State",
       "code": "climb",
@@ -182,6 +165,8 @@ var config_data = `
       },
       "defaultValue": "x"
     }
+  ],
+  "endgame": [
   ],
   "postmatch": [
     { "name": "Fouls",
