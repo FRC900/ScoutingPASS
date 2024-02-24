@@ -106,7 +106,7 @@ var config_data = `
       "type": "cycle"
     },
     { "name": "Speaker Scored",
-      "code": "tKkrScore",
+      "code": "tSkrScore",
       "type": "counter",
       "cycleTimer": "tct"
     },
