@@ -58,33 +58,33 @@ var config_data = `
   ],
   "auton": [
     { "name": "Auto Amp Scored",
-      "code": "auto_amp_score",
+      "code": "autoAmpScore",
       "type": "counter"
     },
     { "name": "Auto Amp Missed",
-      "code": "auto_amp_miss",
+      "code": "autoAmpMiss",
       "type": "counter"
     },
     {
       "type": "break"
     },
     { "name": "Auto Speaker Scored",
-      "code": "auto_spk_score",
+      "code": "autoSpkScore",
       "type": "counter"
     },
     { "name": "Auto Speaker Missed",
-      "code": "auto_spk_miss",
+      "code": "autoSpkMiss",
       "type": "counter"
     },
     {
       "type": "break"
     },
     { "name": "Missed NOTES Pickup",
-      "code": "auto_notes_miss",
+      "code": "autoNotesMiss",
       "type": "counter"
     },
     { "name": "NOTES Picked Up",
-      "code": "auto_notes_path",
+      "code": "autoNotesPath",
       "type": "clickable_image",
       "filename": "2024/field_image.png",
       "toggleClick": "true",
@@ -92,11 +92,11 @@ var config_data = `
       "shape": "circle 12 black red true"
     },
     { "name": "Did they leave the STARTING ZONE?",
-      "code": "auto_move",
+      "code": "autoMove",
       "type": "bool"
     },
     { "name": "Did they recieve a foul in Auto",
-      "code": "auto_foul",
+      "code": "autoFoul",
       "type": "bool"
     }
   ],
@@ -106,12 +106,12 @@ var config_data = `
       "type": "cycle"
     },
     { "name": "Speaker Scored",
-      "code": "t_skr_score",
+      "code": "tKkrScore",
       "type": "counter",
       "cycleTimer": "tct"
     },
     { "name": "Speaker Missed",
-      "code": "t_skr_miss",
+      "code": "tSkrMiss",
       "type": "counter",
       "cycleTimer": "tct"
     },
@@ -119,12 +119,12 @@ var config_data = `
       "type": "break"
     },
     { "name": "Amp Scored",
-      "code": "t_amp_score",
+      "code": "tAmpScore",
       "type": "counter",
       "cycleTimer": "tct"
     },
     { "name": "Amp Missed",
-      "code": "t_amp_miss",
+      "code": "tAmpMiss",
       "type": "counter",
       "cycleTimer": "tct"
     },
@@ -142,16 +142,16 @@ var config_data = `
       "type": "break"
     },
     { "name": "Trap Score",
-      "code": "t_trap",
+      "code": "tTrap",
       "type": "counter",
       "cycleTimer": "tct"
     },
     { "name": "Trap Miss",
-      "code": "t_trap_miss",
+      "code": "tTrapMiss",
       "type": "counter"
     },
     { "name": "Climb Timer",
-    "code": "t_climb_time",
+    "code": "tClimbTime",
     "type": "cycle"
     },
     { "name": "Climb Final State",
@@ -174,7 +174,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Tech Fouls",
-      "code": "tech_foul",
+      "code": "techFoul",
       "type": "counter"
     },
     { "name": "Yellow Cards",
