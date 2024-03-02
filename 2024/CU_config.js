@@ -14,7 +14,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2023mrcmp",  
+      "defaultValue": "2024ncwak",  
       "required": "true",
       "disabled": "true"
     },
