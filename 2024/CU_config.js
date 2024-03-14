@@ -14,7 +14,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2024ncwak",  
+      "defaultValue": "2024ncash",  
       "required": "true",
       "disabled": "true"
     },
@@ -128,16 +128,6 @@ var config_data = `
       "type": "counter",
       "cycleTimer": "tct"
     },
-    { "name": "Amp Shooting Location",
-      "code": "tAmpLocation",
-      "type":"radio",
-      "choices": {
-        "f": "Right in Front<br>",
-        "d": "Distanced<br>",
-        "x": "Not attempted"
-      },
-      "defaultValue": "x"
-    },
     {
       "type": "break"
     },
@@ -149,10 +139,6 @@ var config_data = `
     { "name": "Trap Miss",
       "code": "tTrapMiss",
       "type": "counter"
-    },
-    { "name": "Climb Timer",
-    "code": "tClimbTime",
-    "type": "cycle"
     },
     { "name": "Climb Final State",
       "code": "climb",
