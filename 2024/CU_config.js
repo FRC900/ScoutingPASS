@@ -145,9 +145,9 @@ var config_data = `
       "code": "pickup",
       "type": "radio",
       "choices": {
-        "p": "Floor Pickup",
-        "1": "Loading Station Pickup",
-        "f": "Anywhere",
+        "f": "Floor Pickup",
+        "l": "Loading Station Pickup",
+        "a": "Anywhere",
         "x": "Not attempted"
       },
       "defaultValue": "x"
