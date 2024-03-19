@@ -140,6 +140,18 @@ var config_data = `
       "code": "tTrapMiss",
       "type": "counter"
     },
+    {
+      "name": "Pickup Location",
+      "code": "pickup",
+      "type": "radio",
+      "choices": {
+        "p": "Floor Pickup",
+        "1": "Loading Station Pickup",
+        "f": "Anywhere",
+        "x": "Not attempted"
+      },
+      "defaultValue": "x"
+    },
     { "name": "Climb Final State",
       "code": "climb",
       "type":"radio",
