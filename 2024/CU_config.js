@@ -89,7 +89,9 @@ var config_data = `
       "filename": "2024/field_image.png",
       "toggleClick": "true",
       "showFlip": "false",
-      "shape": "circle 12 black red true"
+      "shape": "circle 12 black red true",
+      "clickRestrictions": "onePerBox",
+      "dimensions": "3 5"
     },
     { "name": "Did they leave the STARTING ZONE?",
       "code": "autoMove",
