@@ -29,11 +29,9 @@ var config_data = `
       "code": "electricalProt",
       "type": "radio",
       "choices": {
-        "1": "1",
-        "2": "2",
-        "3": "3",
-        "4": "4",
-        "5": "5"
+        "1": "Untrustworthy",
+        "2": "Questionable",
+        "3": "Trustworthy"
       },
       "defaultValue": "0",
       "tooltip": "how shielded are components and wires; are wires likely to get pulled"
@@ -42,11 +40,9 @@ var config_data = `
       "code": "electricalOrg",
       "type": "radio",
       "choices": {
-        "1": "1",
-        "2": "2",
-        "3": "3",
-        "4": "4",
-        "5": "5"
+        "1": "Untrustworthy",
+        "2": "Questionable",
+        "3": "Trustworthy"
       },
       "defaultValue": "0"
     },
@@ -70,11 +66,9 @@ var config_data = `
       "code": "bumperAtt",
       "type": "radio",
       "choices": {
-        "1": "1",
-        "2": "2",
-        "3": "3",
-        "4": "4",
-        "5": "5"
+        "1": "Untrustworthy",
+        "2": "Questionable",
+        "3": "Trustworthy"
       },
       "defaultValue": "0"
     },
